@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Services from "./components/Services";
 import About from "./components/About";
+import Product from "./components/Product";
+import MFooter from "./components/MFooter";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +15,9 @@ function App() {
       <Navbar />
       <Home />
       <Services />
-      <About/>
+      <About />
+      <Product />
+      <MFooter/>
     </>
   );
 }
